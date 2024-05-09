@@ -10,8 +10,8 @@
         <v-app-bar-title>Prueba técnica</v-app-bar-title>
 
         <template v-slot:append>
-          <v-btn></v-btn> <v-btn class="text-none" stacked>
-              <v-badge color="error" :content="store.getters.totalProducts">
+          <v-btn class="text-none" stacked to="/cart">
+              <v-badge color="error" :content="countProdcuts()">
                   <v-icon>mdi-cart</v-icon>
               </v-badge>
           </v-btn>
@@ -28,4 +28,6 @@
 <script setup>
 import { useStore } from 'vuex';
 const store = useStore();
+
+const countProdcuts = () => store.getters.totalProducts
 </script>

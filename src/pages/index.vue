@@ -29,10 +29,10 @@ const actions = [
   },
   {
     title: 'Ver mis compras',
-    text: 'Compras realizadas',
+    text: '(En construcción)',
     icon: 'mdi-cart-check',
     color:'green',
-    route: '/my-shopping'
+    route: '/'
   },
 
 ];

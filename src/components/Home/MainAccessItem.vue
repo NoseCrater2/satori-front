@@ -16,21 +16,6 @@
       {{ action.text }}
     </v-card-text>
 
-    <v-card-actions>
-      <v-list-item class="w-100">
-
-
-        <template v-slot:append>
-          <div class="justify-self-end">
-            <v-icon class="me-1" icon="mdi-heart"></v-icon>
-            <span class="subheading me-2">256</span>
-            <span class="me-1">·</span>
-            <v-icon class="me-1" icon="mdi-share-variant"></v-icon>
-            <span class="subheading">45</span>
-          </div>
-        </template>
-      </v-list-item>
-    </v-card-actions>
   </v-card>
 </template>
 
